@@ -5,7 +5,7 @@ import hero from '../../assets/images/hero.png'
 
 const Banner = () => {
   return (
-    <div className="w-6/12 mx-auto">
+    <div className="w-6/12 mx-auto mb-5">
       <div className="flex flex-col-reverse md:flex-col lg:flex-col">
         <div>
           <h1 className="text-center mb-5 mt-10 font-inter text-[40px] md:text-[50px] lg:text-[72px] font-bold leading-[50px] md:leading-[60px] lg:leading-[84px] ">
