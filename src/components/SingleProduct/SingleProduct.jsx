@@ -1,33 +1,40 @@
 import React from "react";
+import { formatMillions } from "../../utilities/Utilities";
+import { Download } from 'lucide-react';
+import { FaStar } from "react-icons/fa";
 
 const SingleProduct = ({ product }) => {
   
-
+const {downloads,title,description,image,ratingAvg} = product;
   return (
     <div>
-      {product.downloads > 300000 && (
-        <div className="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      {downloads> 300000 && (
+        <div>
+      <div>
+        <div className="card bg-base-100 w-96 h-96 shadow-lg">
+          <figure className="w-8/12 mx-auto">
+            <img 
+            className="w-full h-full  object-cover"
+              src={image}
               alt="Shoes"
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Card Title
-              <div className="badge badge-secondary">NEW</div>
+              {title}
+             
             </h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+            <p className="text-sm text-gray-600 font-sans">
+              {description}
             </p>
-            <div className="card-actions justify-end">
-              <div className="badge badge-outline">Fashion</div>
-              <div className="badge badge-outline">Products</div>
+            <div className="card-actions flex justify-between">
+              <div className="flex gap-1 text-blue-500 font-bold shadow-lg"> <Download  className="text-blue-500 size-5"/>{formatMillions(downloads)}</div>
+              <div className="badge shadow-lg"> <FaStar className="text-yellow-400" />{ratingAvg}</div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
       )}
     </div>
   );

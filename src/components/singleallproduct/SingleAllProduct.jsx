@@ -4,7 +4,7 @@ import { Download } from 'lucide-react';
 import { FaStar } from "react-icons/fa";
 const SingleAllProduct = ({ product }) => {
 
-   // console.log(product);
+    console.log(product);
 
     const {downloads,ratingAvg,image,title,description}= product;
 
@@ -12,7 +12,7 @@ const SingleAllProduct = ({ product }) => {
   return (
     <div>
       <div>
-        <div className="card bg-base-100 w-96 shadow-lg">
+        <div className="card bg-base-100 w-96 h-96 shadow-lg">
           <figure className="w-8/12 mx-auto">
             <img 
             className="w-full h-full  object-cover"
@@ -25,7 +25,7 @@ const SingleAllProduct = ({ product }) => {
               {title}
              
             </h2>
-            <p classname="text-sm text-gray-600" font-sans>
+            <p className="text-sm text-gray-600 font-sans">
               {description}
             </p>
             <div className="card-actions flex justify-between">
