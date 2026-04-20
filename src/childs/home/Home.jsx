@@ -1,23 +1,24 @@
-import React, { createContext, Suspense } from 'react';
+import React, { Suspense} from 'react';
 import Banner from '../../components/banner/Banner';
 import Loading from '../../components/loading/Loading';
 import TrendingProducts from '../trendingProducts/TrendingProducts';
+import { AppContext } from '../../main';
 
-export const AppContext=createContext([]);
 
-const promisedata=fetch('/App.json')
-.then(res=>res.json())
 
 
 
 const Home = () => {
+
+   
     return (
-        <AppContext.Provider value={promisedata}>
-            <Banner></Banner>
+        
+          <div>
+              <Banner></Banner>
             <Suspense fallback={<Loading></Loading>}>
             <TrendingProducts></TrendingProducts>
             </Suspense>
-        </AppContext.Provider>
+          </div>
     );
 };
 

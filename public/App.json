@@ -1,7 +1,7 @@
 [
   {
-    "image": "https://example.com/app1.png",
-    "title": "TaskFlow",
+    "image": "https://i.ibb.co/83sdgrz/calculator.png",
+    "title": "Calcualtor Pro",
     "companyName": "FlowTech Ltd.",
     "id": 1,
     "description": "A productivity app to manage tasks, projects, and daily workflows efficiently.",
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "image": "https://example.com/app2.png",
-    "title": "FitTrack",
+    "image": "https://i.ibb.co/Lzyt6vvv/clock-logo.png",
+    "title": "TimeTracker",
     "companyName": "HealthCore Inc.",
     "id": 2,
     "description": "Track workouts, calories, and health metrics with smart insights.",
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "image": "https://example.com/app3.png",
-    "title": "PhotoSnap",
+    "image": "https://i.ibb.co/tPcrCTMm/courier.png",
+    "title": "Rider pro",
     "companyName": "PixelWorks",
     "id": 3,
     "description": "Edit photos with AI filters, effects, and pro-level tools.",
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "image": "https://example.com/app4.png",
-    "title": "BudgetWise",
+    "image": "https://i.ibb.co/jqPf0by/talk.png",
+    "title": "Tik Talk",
     "companyName": "FinEdge",
     "id": 4,
     "description": "Manage your expenses and savings with smart financial tools.",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://example.com/app5.png",
+    "image": "https://i.ibb.co/mCQGjBH9/learnee.png",
     "title": "Learnify",
     "companyName": "EduSmart",
     "id": 5,
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "image": "https://example.com/app6.png",
-    "title": "TravelMate",
+    "image": "https://i.ibb.co/JwLrsYP4/to-do-app.png",
+    "title": "My Task Manager",
     "companyName": "WanderLabs",
     "id": 6,
     "description": "Plan trips, book hotels, and explore destinations worldwide.",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "image": "https://example.com/app7.png",
-    "title": "MusicWave",
+    "image": "https://i.ibb.co/CpfDNK31/snap-pro.png",
+    "title": "Snap Rock",
     "companyName": "SoundSphere",
     "id": 7,
     "description": "Stream millions of songs with personalized playlists.",
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "image": "https://example.com/app8.png",
-    "title": "NewsFlash",
+    "image": "https://i.ibb.co/3VrH8JT/fit.jpg",
+    "title": "Fit Trainer",
     "companyName": "Global Media Inc.",
     "id": 8,
     "description": "Stay updated with breaking news and trending stories.",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://example.com/app9.png",
+    "image": "https://i.ibb.co/pvKrFPN7/game-zone.png",
     "title": "GameZone",
     "companyName": "PlayWorks Studio",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://example.com/app10.png",
+    "image": "https://i.ibb.co/m5jnYPT1/yoga.png",
     "title": "MindCalm",
     "companyName": "ZenLife",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://example.com/app11.png",
+    "image": "https://i.ibb.co/20NyNpmV/ecomerce.png",
     "title": "ShopEase",
     "companyName": "RetailHub",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://example.com/app12.png",
+    "image": "https://i.ibb.co/jvRPHgDz/weather.png",
     "title": "WeatherNow",
     "companyName": "SkyCast",
     "id": 12,
